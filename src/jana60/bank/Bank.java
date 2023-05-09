@@ -58,6 +58,9 @@ public class Bank {
                     break;
                 case 3:
                     break;
+                default:
+                	System.out.println(option + " non è un opzione valida");
+                	System.out.println("----------------------");
             }
         }
         sc.close();
